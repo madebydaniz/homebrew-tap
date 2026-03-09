@@ -1,22 +1,22 @@
 class Lsteg < Formula
   desc "Multilingual linguistic steganography CLI"
   homepage "https://github.com/madebydaniz/linguasteg"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/madebydaniz/linguasteg/releases/download/v0.2.0/lsteg-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a6623850a0de607b444c1b7e000a565d85f9cc6837aad550b34c308aa6c5a895"
+      url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "c9f88e23757db7660a1f69e4cda21df49d03f776d0581176e1d99463070c48a7"
     else
-      url "https://github.com/madebydaniz/linguasteg/releases/download/v0.2.0/lsteg-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "086305cdcff0fa8ec6562f3adf1afaae2d78b66faba4f053f5f51344ec4e4dc8"
+      url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "746a861049951842bae405901fbc6aea5b1ef7afcad302a086657ca43b712aaf"
     end
   end
 
   on_linux do
-    url "https://github.com/madebydaniz/linguasteg/releases/download/v0.2.0/lsteg-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "f30e6cf5dd055e6951229cbbcc30a49c03bec7cb3f583d4c2f18d44bfe385833"
+    url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "4f75bc00b0b6aa4b377615f6c8d0f190821db6d18b68807ce5c20fea9f00e805"
   end
 
   def install
