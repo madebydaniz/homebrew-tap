@@ -7,16 +7,16 @@ class Lsteg < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c9f88e23757db7660a1f69e4cda21df49d03f776d0581176e1d99463070c48a7"
+      sha256 "9c910c72283811e3e8cac51e5862a37eedb3ff6fe694142ec038a291a9eb0ebe"
     else
       url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "746a861049951842bae405901fbc6aea5b1ef7afcad302a086657ca43b712aaf"
+      sha256 "f7defb9fe9a53edeb96ad69c889c628ee750be0808477cc205d659afa9d0dad8"
     end
   end
 
   on_linux do
     url "https://github.com/madebydaniz/linguasteg/releases/download/linguasteg-v0.2.1/lsteg-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "4f75bc00b0b6aa4b377615f6c8d0f190821db6d18b68807ce5c20fea9f00e805"
+    sha256 "b24a9174d9b20a046b8a3ab362c13489e4f6a040454372506fed8dba3ff33aa6"
   end
 
   def install
